@@ -1,0 +1,18 @@
+{
+  "session_id": "3fdc8d19-ff80-4ede-a63a-b36c0f57b797",
+  "method": "sft",
+  "method_label": "SFT (Instruction)",
+  "base_model": "mistralai/Mistral-7B-Instruct-v0.3",
+  "adapter": {
+    "type": "lora",
+    "r": 16,
+    "alpha": 32,
+    "dropout": 0.05
+  },
+  "dataset": {
+    "path": "sessions/3fdc8d19-ff80-4ede-a63a-b36c0f57b797/data.jsonl",
+    "format": "jsonl",
+    "examples": 10
+  },
+  "generated_at": "2026-05-20T06:12:56.508Z"
+}
